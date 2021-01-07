@@ -54,3 +54,18 @@ function fixando(){
 
     fixa.innerHTML = "Esta é a sua mensagem: " + novo;
 }
+
+
+function verifica(){
+    var resp = prompt('Deseja realmente voltar?');
+    if(resp == 's'){
+        return window.location.href='index.html';
+    }else{
+        alert("Você optou por permanecer!");
+    }
+}
+
+function testar(){
+    var testar = document.getElementById('testar');
+    testar.innerHTML = 'O teste deu certo!';
+}
